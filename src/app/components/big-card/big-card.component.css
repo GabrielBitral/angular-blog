@@ -1,0 +1,49 @@
+.container-big-card {
+  border: 3px solid #376E8A;
+  border-radius: 10px;
+  padding: 15px;
+  background-color: #95DCFF;
+}
+
+.notice-image {
+  object-fit: cover;
+  border-radius: 10px;
+  height: 227px;
+  width: 304px;
+}
+
+.container-game-time {
+  display: flex;
+  justify-content: start;
+  gap: 15px;
+  padding: 6px 0 10px 5px;
+}
+
+.game-name {
+  background-color: #376E8A;
+  border-radius: 8px;
+  padding: 1px 10px;
+}
+
+.title-notice {
+  padding: 10px 0 10px 5px;
+}
+
+.container-info-notice-image {
+  display: flex;
+  gap: 20px;
+  padding: 10px 0 10px 5px;
+}
+
+.notice-time-actor {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.actor-image {
+  width: 4rem;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
