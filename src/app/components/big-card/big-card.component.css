@@ -1,49 +1,59 @@
-.container-big-card {
+.big-card__container {
   border: 3px solid #376E8A;
   border-radius: 10px;
   padding: 15px;
-  background-color: #95DCFF;
+  height: 527px;
+  width: 413px;
 }
 
-.notice-image {
+.big-card__notice-image {
   object-fit: cover;
   border-radius: 10px;
-  height: 227px;
-  width: 304px;
+  height: 287px;
+  width: 377px;
 }
 
-.container-game-time {
+.big-card__container-game-time {
   display: flex;
   justify-content: start;
   gap: 15px;
   padding: 6px 0 10px 5px;
+  color:#c1e5f7;
 }
 
-.game-name {
+.big-card__game-name {
   background-color: #376E8A;
   border-radius: 8px;
   padding: 1px 10px;
 }
 
-.title-notice {
+.big-card__title-notice {
   padding: 10px 0 10px 5px;
+  width: 100%;
+  color: #c1e5f7;
 }
 
-.container-info-notice-image {
+.big-card__container-info-notice-image {
   display: flex;
-  gap: 20px;
+  gap: 15px;
   padding: 10px 0 10px 5px;
 }
 
-.notice-time-actor {
+.big-card__notice-time-actor {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   gap: 10px;
+  color: #c1e5f7;
 }
 
-.actor-image {
+.big-card__actor-image {
   width: 4rem;
   object-fit: cover;
   border-radius: 50%;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
