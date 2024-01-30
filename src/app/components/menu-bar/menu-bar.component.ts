@@ -1,12 +1,23 @@
 import { Component } from '@angular/core';
+import { RouterModule } from '@angular/router';
 
 @Component({
   selector: 'app-menu-bar',
   standalone: true,
-  imports: [],
+  imports: [RouterModule],
   templateUrl: './menu-bar.component.html',
-  styleUrl: './menu-bar.component.css'
+  styleUrls: ['./menu-bar.component.css', './menu-bar.responsive.component.css']
 })
 export class MenuBarComponent {
+  showMenuBar() {
+    const menuElement:HTMLElement | null = document.getElementById("nav-menu-bar");
 
+    if (menuElement) {
+      if (menuElement.className === "menu-bar") {
+        menuElement.className += " responsive";
+      } else {
+        menuElement.className = "menu-bar";
+      }
+    }
+  }
 }

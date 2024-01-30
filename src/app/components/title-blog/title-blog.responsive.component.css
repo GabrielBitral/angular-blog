@@ -1,19 +1,18 @@
-.container-title {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-bottom: 4%;
-}
+@media (max-width: 1024px) {
+  .container-title {
+    margin-bottom: 2.5%;
+  }
 
-.container-title > h1 {
-  margin: 14px 0 13px 0;
-  color: #95dcff;
-}
+  .container-title > h1 {
+    margin: 5px 0 8px 0;
+    font-size: 1.75rem;
+  }
 
-.container-title > h4 {
-  color: #6ba3be;
-}
+  .container-title > h4 {
+    font-size: 0.75rem;
+  }
 
-.container-title > p {
-  color: #95dcff;
+  .container-title > p {
+    font-size: 0.875rem;
+  }
 }

@@ -1,0 +1,118 @@
+@media screen and (max-width: 1024px) {
+  .big-card__container {
+    height: 383px;
+    width: 316px;
+  }
+
+  .big-card__notice-image {
+    height: 210px;
+    width: 280px;
+  }
+
+  .big-card__container-game-time {
+    padding: 5px 0 3px 5px
+  }
+
+  .big-card__game-name {
+    padding: 1px 8px;
+    font-size: 14px;
+  }
+
+  .big-card__notice-read-time {
+    font-size: 14px;
+  }
+
+  .big-card__title-notice {
+    font-size: 20px;
+    padding: 5px 0 5px 5px;
+  }
+
+  .big-card__container-info-notice-author {
+    font-size: 0.75rem;
+    padding: 5px 0 0 5px;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .big-card__container {
+    height: 390px;
+    width: 100%;
+  }
+
+  .big-card__notice-image {
+    height: 175px;
+    width: 217px;
+  }
+
+  .big-card__container-game-time {
+    padding: 5px 0 3px 5px
+  }
+
+  .big-card__game-name {
+    padding: 1px 8px;
+    font-size: 14px;
+  }
+
+  .big-card__notice-read-time {
+    font-size: 14px;
+  }
+
+  .big-card__title-notice {
+    font-size: 20px;
+    padding: 5px 0 5px 5px;
+  }
+
+  .big-card__container-info-notice-author {
+    padding: 5px 0 0 5px;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  .big-card__container {
+    height: 350px;
+    width: 100%;
+  }
+
+  .big-card__notice-image {
+    height: 175px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .big-card__container {
+    height: 330px;
+    width: 100%;
+  }
+
+  .big-card__notice-image {
+    height: 175px;
+    width: 100%;
+  }
+
+  .big-card__container-game-time {
+    padding: 5px 0 3px 5px
+  }
+
+  .big-card__game-name {
+    padding: 1px 8px;
+    font-size: 0.675rem;
+  }
+
+  .big-card__notice-read-time {
+    font-size: 0.675rem;
+  }
+
+  .big-card__title-notice {
+    font-size: 0.875rem;
+    padding: 5px 0 5px 5px;
+  }
+
+  .big-card__container-info-notice-author {
+    padding: 5px 0 0 5px;
+  }
+
+  .big-card__author-image {
+    width: 3rem;
+  }
+}

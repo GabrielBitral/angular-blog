@@ -1,13 +1,18 @@
-import { Component, Input } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
+import { RouterModule } from '@angular/router';
+import { dataFake } from '../../data/dataFake';
 
 @Component({
   selector: 'app-small-card',
   standalone: true,
-  imports: [],
+  imports: [RouterModule],
   templateUrl: './small-card.component.html',
-  styleUrl: './small-card.component.css'
+  styleUrls: ['./small-card.component.css', './small-card.responsive.component.css']
 })
-export class SmallCardComponent {
+export class SmallCardComponent implements OnInit {
+  @Input()
+  idNotice:string = '0';
+
   @Input()
   titleNotice: string = '';
 
@@ -28,4 +33,22 @@ export class SmallCardComponent {
 
   @Input()
   dateNotice: string = '';
+
+  ngOnInit(): void {
+    this.setValuesToComponent(this.idNotice);
+  }
+
+  setValuesToComponent(id:string | null) {
+    const result = dataFake.filter(article => article.id == id)[0];
+
+    if (result) {
+      this.titleNotice = result.titleNotice;
+      this.photoNotice = result.photoCover;
+      this.gameName = result.gameName;
+      this.readTime = result.readTime;
+      this.photoAuthor = result.photoAuthor;
+      this.author = result.author;
+      this.dateNotice = result.dateNotice;
+    }
+  }
 }

@@ -1,15 +1,22 @@
-<nav>
-  <a href="/">
+<nav class="menu-bar" id="nav-menu-bar">
+  <a [routerLink]="['']">
     <img src="../../../assets/logo.png" alt="Logo do GaBlog" class="logo">
   </a>
   <ul class="lista-jogos">
+    <hr class="divisor">
     <li><a href="https://www.leagueoflegends.com/pt-br/" target="_blank">League of Legends</a></li>
+    <hr class="divisor">
     <li><a href="https://teamfighttactics.leagueoflegends.com/pt-br/" target="_blank">Teamfight Tactics</a></li>
+    <hr class="divisor">
     <li><a href="https://genshin.hoyoverse.com/pt/home" target="_blank">Genshin Impact</a></li>
+    <hr class="divisor">
     <li><a href="https://hsr.hoyoverse.com/pt-pt/home" target="_blank">Honkai Star Rail</a></li>
+    <hr class="divisor">
   </ul>
   <div class="links">
-    <a href="https://github.com/GabrielBitral/angular-blog" target="_blank" class="link-autor">Projeto</a>
-    <a href="https://github.com/GabrielBitral" target="_blank" class="link-autor">Autor</a>
+    <a href="https://github.com/GabrielBitral/angular-blog" target="_blank" class="link-projeto">Projeto</a>
+    <a href="javascript:void(0);" class="icon" (click)="showMenuBar()">
+      <i class="fa fa-bars"></i>
+    </a>
   </div>
 </nav>

@@ -1,9 +1,14 @@
-nav {
+.menu-bar {
   display: flex;
   justify-content: space-between;
+  background-color: #182024;
   align-items: center;
   padding: 15px 20px 20px 20px;
-  margin-bottom: 2%;
+  overflow: hidden;
+}
+
+.divisor {
+  display: none;
 }
 
 .logo {
@@ -13,14 +18,13 @@ nav {
 
 .lista-jogos {
   display: flex;
-  align-content: center;
+  align-items: center;
   gap: 40px;
 }
 
 .lista-jogos li {
   list-style: none;
-  display: flex;
-  align-items: center;
+  display: block;
 }
 
 a {
@@ -31,13 +35,16 @@ a {
 .links {
   display: flex;
   align-items: center;
-  gap: 10px
 }
 
-.link-autor {
+.link-projeto {
   border: 2px solid #5cc9ff;
   border-radius: 10px;
   padding: 10px 15px;
   color: #c1e5f7;
+}
+
+nav .icon {
+  display: none;
 }
 

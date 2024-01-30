@@ -1,13 +1,13 @@
 <section class="big-card__container">
-  <img src="{{ photoNotice }}" alt="Imagem da notícia" class="big-card__notice-image">
+  <a [routerLink]="['content', idNotice]"><img src="{{ photoNotice }}" alt="Imagem da notícia" class="big-card__notice-image"></a>
   <div class="big-card__container-game-time">
     <span class="big-card__game-name">{{ gameName }}</span>
     <span class="big-card__notice-read-time">{{ readTime }}</span>
   </div>
-  <h2 class="big-card__title-notice"><a href="/">{{ titleNotice }}</a></h2>
-  <div class="big-card__container-info-notice-image">
-    <img src="{{ photoAuthor }}" alt="Foto do autor" class="big-card__actor-image">
-    <div class="big-card__notice-time-actor">
+  <h2 class="big-card__title-notice"><a [routerLink]="['content', idNotice]">{{ titleNotice }}</a></h2>
+  <div class="big-card__container-info-notice-author">
+    <img src="{{ photoAuthor }}" alt="Foto do autor" class="big-card__author-image">
+    <div class="big-card__notice-time-author">
       <span>{{ author }}</span>
       <span>{{ dateNotice }}</span>
     </div>

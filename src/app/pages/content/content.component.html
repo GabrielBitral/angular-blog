@@ -1,0 +1,16 @@
+<div class="content__container">
+  <div class="content__cover">
+    <img src="{{ photoNotice }}" alt="Imagem do Jogo da Notícia">
+  </div>
+  <div class="content__title">
+    <h1>{{ titleNotice }}</h1>
+  </div>
+  <div class="content__description">
+    <p>{{ descriptionNotice }}</p>
+  </div>
+  <div class="content__images">
+    <a *ngFor="let item of redirectUrls; let i = index" href="{{item}}" target="_blank">
+      <img src="{{contentImages[i]}}" alt="Imagens da Notícia">
+    </a>
+  </div>
+</div>

@@ -16,6 +16,7 @@
 .big-card__container-game-time {
   display: flex;
   justify-content: start;
+  align-items: center;
   gap: 15px;
   padding: 6px 0 10px 5px;
   color:#c1e5f7;
@@ -33,13 +34,13 @@
   color: #c1e5f7;
 }
 
-.big-card__container-info-notice-image {
+.big-card__container-info-notice-author {
   display: flex;
   gap: 15px;
   padding: 10px 0 10px 5px;
 }
 
-.big-card__notice-time-actor {
+.big-card__notice-time-author {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -47,7 +48,7 @@
   color: #c1e5f7;
 }
 
-.big-card__actor-image {
+.big-card__author-image {
   width: 4rem;
   object-fit: cover;
   border-radius: 50%;

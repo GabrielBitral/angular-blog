@@ -1,0 +1,13 @@
+@media screen and (max-width: 768px) {
+  .notices {
+    padding: 10px;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  .notices {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+}

@@ -1,0 +1,17 @@
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  height: 40px;
+  color: #c1e5f7;
+  border-top: 1px solid #376E8A;
+  bottom: 0;
+  width: 100%;
+  padding: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}

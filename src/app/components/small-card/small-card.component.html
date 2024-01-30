@@ -1,12 +1,12 @@
 <section class="small-card__container">
-  <img src="{{ photoNotice }}" alt="Imagem da notícia" class="small-card__notice-image">
+  <a [routerLink]="['content', idNotice]"><img src="{{ photoNotice }}" alt="Imagem da notícia" class="small-card__notice-image"></a>
   <div class="small-card__container-notice">
     <div class="small-card__container-game-time">
       <span class="small-card__game-name">{{ gameName }}</span>
       <span class="small-card__notice-read-time">{{ readTime }}</span>
     </div>
-    <h5 class="small-card__title-notice"><a href="/">{{ titleNotice }}</a></h5>
-    <div class="small-card__container-info-notice-image">
+    <h5 class="small-card__title-notice"><a [routerLink]="['content', idNotice]">{{ titleNotice }}</a></h5>
+    <div class="small-card__container-info-notice-author">
       <img src="{{ photoAuthor }}" alt="Foto do autor" class="small-card__actor-image">
       <div class="small-card__notice-time-actor">
         <span>{{ author }}</span>
