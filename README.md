@@ -1,27 +1,31 @@
-# AngularBlog
+# 📄 GaBlog
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.1.1.
+Projeto de um site de blog para notícias de jogos com base em um layout do Dribbble, utilizando Angular na versão 17.1.1 para colocar meus conhecimentos em prática!
 
-## Development server
+## 📑 Conceitos aplicados:
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- Utilização do Angular CLI;
+- Diretivas e binds;
+- Componentização e estruturação de HTML dinâmico;
+- Lifecycle Hooks;
+- SPA;
+- CSS responsivo;
+- Estruturação de pastas;
+- Padrões de commits;
 
-## Code scaffolding
+## 🛠 Ferramentas e linguagens:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- Typescript;
+- HTML;
+- CSS;
+- Angular;
+- VSCode;
 
-## Build
+## 🖼 Preview:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- Home:
+![image](https://github.com/GabrielBitral/angular-blog/assets/77023882/0d1bee7b-f82a-4d73-9748-2d41d3859e8c)
 
-## Running unit tests
+- Conteúdo:
+![image](https://github.com/GabrielBitral/angular-blog/assets/77023882/040689c8-af4a-47d1-a022-a51ca2f3cc27)
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
